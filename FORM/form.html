@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<style>
+h1
+{
+font-size:20;
+}
+fieldset
+{
+width:500px;
+}
+</style>
+<body>
+	<center>
+	<form method="post" textalign="center">
+	<fieldset>
+	<h1>Employee Details</h1>
+	<table colspan="2" rowspan="6" cellpadding="10">
+	
+	<tr>
+		<td>ID</td>
+		<td><input type="text" name="id"></td>
+		
+	</tr>
+	<tr>
+		<td>NAME</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	
+	<tr>
+		<td>GENDER</td>
+		<td>
+			<input type="radio" name="gender" value="MALE">MALE &nbsp&nbsp&nbsp 
+		  	<input type="radio" name="gender" value="FEMALE">FEMALE
+		</td>
+		
+	</tr>
+	<tr>
+		<td>DESIGNATION</td>
+		<td>
+			<select>
+				<option value="MANAGER">MANAGER</option>
+				<option value="ASSISTANT MANAGER">ASSISTANT MANAGER</option>
+				<option value="CLERK">CLERK</option>
+			</select>
+		</td>
+		
+	</tr>
+	<tr>
+		<td>SALARY</td>
+		<td><input type="text" name="salary"></td>
+		
+	</tr>
+	<tr>
+		<td colspan="2"><center><button type="button">Submit</button></td>
+	</tr>
+	</table>
+	</fieldset>
+	</form>
+</body>
+</html>
