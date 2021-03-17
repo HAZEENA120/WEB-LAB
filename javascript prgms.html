@@ -1,0 +1,78 @@
+
+<html>
+   <body>   
+      <script language = "javascript" type = "text/javascript">
+       
+            document.write("Hello World!");
+
+	var a = 33;
+            	var b = 10;
+           	 var c = "Test";            	    
+            document.write("<br><br> a + b = ");
+            result = a + b;
+            document.write(result);
+	document.write(c);	
+
+	var age = 15;         
+            if( age > 18 ) {
+               document.write("<br><br><b>Qualifies for driving</b><br>");
+            } else {
+               document.write("<br><br><b>Does not qualify for driving</b><br>");
+            }
+
+	var count;
+            document.write("<br>Starting Loop" + "<br />");        
+            for(count = 0; count < 10; count++) {
+               document.write("Current Count : " + count );
+               document.write("<br />");
+            }         
+            document.write("Loop stopped!");	
+	
+         
+      </script>      
+   </body>
+</html>
+
+2.	Js1.html
+<html>
+   <body>   
+      <script language = "javascript" type = "text/javascript">
+       
+            var house = new Array(10, 20, 30, 40, 50); 
+  
+	//Creates an array of 5 undefined elements 
+	var house1 = new Array(5); 
+  
+	//Creates an array with element
+	var home = new Array("1BHK");
+	
+	var len = house.length; 
+	for (var i = 0; i < len; i++) 
+	document.write(house[i]);
+    	
+
+      </script>      
+   </body>
+</html>
+
+3.	Js2.html
+<html>
+<body>
+
+<h2>Finding HTML Elements by Id</h2>
+
+<p id="intro">Hello World!</p>
+<p>This example demonstrates the <b>getElementsById</b> method.</p>
+
+<p id="demo"></p>
+
+<script>
+var myElement = document.getElementById("intro");
+document.getElementById("demo").innerHTML = 
+"The text from the intro paragraph is " + myElement.innerHTML;
+</script>
+
+</body>
+</html>
+.
+
